@@ -13,7 +13,7 @@ import threading
 import math
 
 def sendMessage(message):
-    token='bot5893058754:AAF4k51mk1lc1zoYFQMdJ50C1ksG8C1IxwU'
+    token='telegram bot token'
     chatid='-1001658011959'
     response=requests.get('https://api.telegram.org/'+token+'/sendMessage?chat_id='+chatid+'&text='+message)
     
