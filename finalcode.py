@@ -18,7 +18,7 @@ def sendMessage(message):
     response=requests.get('https://api.telegram.org/'+token+'/sendMessage?chat_id='+chatid+'&text='+message)
     
 def sendPhoto(filename):
-    token='bot5893058754:AAF4k51mk1lc1zoYFQMdJ50C1ksG8C1IxwU'
+    token='telgram bot token'
     chatid='-1001658011959'
     f=open('/home/pi/'+filename,'rb')
     file={'photo':f}
